@@ -72,6 +72,6 @@ body {
 .qr-code-subtitle {
     font-size: 15px;
     font-weight: 400;
-    font-size: 15px;
     color: var(--grayish-blue);
+    letter-spacing: 0.1875px;
 }
