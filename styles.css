@@ -1,8 +1,10 @@
 :root {
-    --white: hsl(0, 0%, 100%);
-    --light-gray: hsl(212, 45%, 89%);
-    --grayish-blue: hsl(220, 15%, 55%);
-    --dark-blue: hsl(218, 44%, 22%);
+    --white: #ffffff;
+    --light-gray: #d6e2f0;
+    --grayish-blue: #7b879d;
+    --dark-blue: #1f3251;
+    --blue: #2C7DFA;
+    --blue-shade: #3685FF;
 
     --family: "Outfit", sans-serif;
 }
@@ -19,7 +21,7 @@ body {
     background-color: var(--light-gray);
 }
 
-.qr-code-container {
+main {
     width: 100%;
     height: 100vh;
 
@@ -29,8 +31,7 @@ body {
 }
 
 .qr-code-card {
-    width: 320px;
-    height: 497px;
+    max-width: 320px;
     padding: 16px;
     border-radius: 20px;
 
@@ -43,17 +44,11 @@ body {
     gap: 24px;
 }
 
-.qr-code {
-    width: 288px;
-    height: 288px;
+.qr-code-card img {
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     overflow: hidden;
-    background-color: var(--dark-blue);
-}
-
-.qr-code img {
-    width: 100%;
-    height: 100%
 }
 
 .qr-code-captions {
@@ -77,4 +72,38 @@ body {
     line-height: 19px;
 
     color: var(--grayish-blue);
+}
+
+footer {
+    padding: 15px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.attribution {
+    padding: 10px 12px;
+    border-radius: 0 10px 10px 0;
+    background-color: var(--blue-shade);
+
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--light-gray);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+    transition: color 0.5s ease;
+}
+
+.attribution a:hover {
+    color: var(--dark-blue);
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        padding: 0 19px;
+    }
 }
