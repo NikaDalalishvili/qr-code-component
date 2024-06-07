@@ -74,34 +74,6 @@ main {
     color: var(--grayish-blue);
 }
 
-footer {
-    padding: 15px 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.attribution {
-    padding: 10px 12px;
-    border-radius: 0 10px 10px 0;
-    background-color: var(--blue-shade);
-
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--light-gray);
-}
-
-.attribution a {
-    text-decoration: none;
-    color: var(--white);
-    font-size: 18px;
-    transition: color 0.5s ease;
-}
-
-.attribution a:hover {
-    color: var(--dark-blue);
-}
-
 @media only screen and (max-width: 375px) {
     body {
         padding: 0 19px;
