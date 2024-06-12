@@ -18,7 +18,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./images/screenshot/screenshot.jpg)
+![](./assets/imgs/screenshot/screenshot.jpg)
 
 ### Links
 
@@ -52,5 +52,5 @@ First I want to finish the javascript course I'm taking on freecodecamp, I'm als
 
 - Frontend Mentor - [@NikaDalalishvili](https://www.frontendmentor.io/profile/NikaDalalishvili)
 - Instagram - [@nika.dala](https://www.instagram.com/nika.dala/)
-- TikTok - [@nika.dala](https://www.tiktok.com/@nika.dala)
 - YouTube - [@nikadala](https://www.youtube.com/@nikadala)
+- TikTok - [@nika.dala](https://www.tiktok.com/@nika.dala)
